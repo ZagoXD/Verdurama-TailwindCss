@@ -8,6 +8,7 @@ module.exports = {
         navhover: '#02472d',
         b2: '#1C682B',
         b1: '#006A42',
+        customGreen: '#84DA95',
       },
     },
   },

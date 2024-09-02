@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" type="imagex/png" href="src/logo.png">
+    <link href="dist/output.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Verdurama</title>
+</head>
+<body class="m-0 p-0 bg-bgreen">
+    <nav class="bg-white flex justify-between items-center w-full h-28">
+        <img src="src/logo.png" alt="Logo Barra Navegação" class="h-24 w-24 ml-[50px]">
+        <div id="divNav">
+            <a class="cursor-pointer m-0 mx-[10px] no-underline mr-[50px] text-xl text-navgreen hover:text-navhover" data-alvo="cabecalho">Home</a>
+            <a class="cursor-pointer m-0 mx-[10px] no-underline mr-[50px] text-xl text-navgreen hover:text-navhover" data-alvo="who">Sobre</a>
+            <a class="cursor-pointer m-0 mx-[10px] no-underline mr-[50px] text-xl text-navgreen hover:text-navhover" data-alvo="oqDizem">Clientes</a>
+            <a class="cursor-pointer m-0 mx-[10px] no-underline mr-[50px] text-xl text-navgreen hover:text-navhover" href="#">Cadastro</a>
+            <a class="cursor-pointer m-0 mx-[10px] no-underline mr-[50px] text-xl text-navgreen hover:text-navhover" href="#">Login</a>
+            <a class="cursor-pointer m-0 mx-[10px] no-underline mr-[50px] text-xl text-navgreen hover:text-navhover" href="#">Administrador</a>
+        </div>
+    </nav>
+    <header id="cabecalho" class="bg-transparent w-full h-[690px] flex justify-center items-center">
+        <div id="containerHeader" class="w-[632px] h-[598px] text-center mt-16">
+            <h1 class="text-white text-5xl font-bold mb-12 text-left">Explore o Verdurama: sua fonte confiável para produtos agrícolas frescos, direto do produtor.</h1>
+            <p class="text-3xl mb-12 text-left">Baixe agora e descubra uma nova maneira de alimentar sua vida com o Verdurama.</p>
+            <div id="buttonHeader" class="flex justify-center items-center w-auto h-auto">
+                <button class="bg-b1 rounded-3xl w-[249px] h-[70px] text-white text-lg font-bold flex border-none justify-center items-center"> <img src="src/Vector.png" alt="Aplicativo em Iphone" class="mr-[10px]"> Download for iOS</button>
+                <button class="bg-white rounded-3xl ml-[20px] text-b2 w-[249px] h-[70px] text-lg font-bold flex border-none justify-center items-center"> <img src="src/GooglePlay.png" alt="Aplicativo em Android" class="mr-[10px]"> Download for Android</button>
+            </div>
+        </div>
+        <img src="src/Group1.png" alt="Celulares em Conjunto">
+    </header>
+    <section id="who" class="bg-white w-full h-[690px] flex justify-evenly items-center">
+        <img src="src/Retangle.png" alt="Celular Aplicativo" class="w-[300px] h-[500px] mr-8">
+        <div id="containerWho" class="w-[592px] h-auto">
+            <h2 class="text-5xl text-b1 font-semibold">Quem Somos</h2>
+            <p class="text-2xl mt-4">Nosso serviço no Verdurama é único.</p>
+            <p class="text-2xl mt-4">Diferente dos aplicativos tradicionais de delivery, nos destacamos por promover uma alimentação saudável e consciente. Conectamos você diretamente aos pequenos produtores locais, oferecendo uma ampla seleção de produtos agrícolas frescos e cultivados de maneira responsável.</p>
+            <p class="text-2xl mt-4">Experimente uma nova maneira de comer bem com o Verdurama.</p>
+        </div>
+    </section>
+    <section id="results" class="w-full bg-white py-20 flex justify-center items-center mt-20 mb-20 h-[560px]">
+        <div id="containerResults" class="w-full text-center">
+            <h1 class="text-4xl font-bold text-b1 mb-10">Nossos resultados reais</h1>
+            <div id="resultados" class="flex justify-evenly items-center">
+                <div class="text-center">
+                    <p class="text-6xl">99<span class="text-navgreen complement text-4xl font-semibold">%</span></p>
+                    <p class="text-xl mt-2">clientes satisfeitos</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-6xl">32<span class="text-navgreen complement text-4xl font-semibold">M</span></p>
+                    <p class="text-xl mt-2">Downloads do app</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-6xl">5.000<span class="text-navgreen complement text-4xl font-semibold">+</span></p>
+                    <p class="text-xl mt-2">Compradores e vendedores ativos</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-6xl">240<span class="complement text-4xl text-navgreen font-semibold">%</span></p>
+                    <p class="text-xl mt-2">Crescimento da vida saudável</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="oqDizem">
+        <div id="containerOqDizem">
+            <h1>O que dizem nossos usuários</h1>
+            <p>Conheça um pouco dos nossos usuários ativos e suas experiências com o app</p>
+            <div id="containerCards">
+                <div class="cards">
+                    <img src="src/p2.png" alt="Pessoa 1">
+                    <p>"O Verdurama simplificou minha busca por produtos frescos. É fácil de usar e oferece uma ampla variedade de opções. Recomendo!"</p>
+                    <p><span class="names">John Carter, <br> </span>comprador de SP</p>
+                </div>
+                <div class="cards">
+                    <img  src="src/p1.png" alt="Pessoas 2">
+                    <p>"Adoro a praticidade do Verdurama. Comprar diretamente dos produtores locais nunca foi tão conveniente e fácil. Excelente serviço à comunidade!"</p>
+                    <p><span class="names">Sophie Moore, <br> </span>compradora de BH</p>
+                </div>
+                <div class="cards">
+                    <img src="src/p3.png" alt="Pessoa 3">
+                    <p>"O Verdurama é uma ótima plataforma para expandir meu negócio. Fácil de usar e eficaz para alcançar novos clientes. Estou muito satisfeito."</p>
+                    <p><span class="names">Matt Cannon,<br> </span>Vendedor de MG</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-white flex justify-between items-center w-full h-[110px]">
+        <img src="src/logo.png" alt="Logo no Rodapé" class="h-24 w-24 ml-[50px]">
+        <p class="mr-[50px]">Copyright © 2024 Verdurama | All Rights Reserved </p>
+    </footer>
+</body>
+<script>
+    // Script para rolar pagina
+    $(".itemNav").click(function(event) {
+        event.preventDefault(); 
+        var target = $(this).data("alvo");
+        $('html, body').animate({
+            scrollTop: $("#" + target).offset().top
+        }, 800);
+    });
+</script>
+</html>
